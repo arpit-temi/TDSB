@@ -14,6 +14,7 @@ import com.temicanada.tdsb.model.Company
 
 class MainActivity : AppCompatActivity(), Robot.NlpListener, OnRobotReadyListener {
 
+
     var companyList: ArrayList<Company> = ArrayList()
     val ACTION_OPEN_LAUNCHER = "home.launcher"
 
